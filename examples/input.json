@@ -1,0 +1,17 @@
+{
+  "balances": {
+    "USD": 100
+  },
+  "allowances": [
+    {
+      "token": "USD",
+      "spender": "dex",
+      "amount": 70
+    },
+    {
+      "token": "USD",
+      "spender": "vault",
+      "amount": 90
+    }
+  ]
+}

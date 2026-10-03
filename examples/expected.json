@@ -1,0 +1,29 @@
+{
+  "allowances": [
+    {
+      "at_risk": 70,
+      "spender": "dex",
+      "token": "USD",
+      "unrestricted": false
+    },
+    {
+      "at_risk": 90,
+      "spender": "vault",
+      "token": "USD",
+      "unrestricted": false
+    }
+  ],
+  "capped_token_exposure": {
+    "USD": 100
+  },
+  "spender_ranking": [
+    {
+      "exposure": 90,
+      "spender": "vault"
+    },
+    {
+      "exposure": 70,
+      "spender": "dex"
+    }
+  ]
+}

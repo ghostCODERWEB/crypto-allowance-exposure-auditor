@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crypto-allowance-exposure-auditor"
+version = "0.1.0"
+description = "Aggregate spender exposure against balances, flag unrestricted approvals and rank revocation effects."
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+crypto-allowance-exposure-auditor = "cryptolab:main"
+
+[tool.setuptools.packages.find]
+include = ["cryptolab*"]
+
+[tool.setuptools.package-data]
+cryptolab = ["web/*"]
